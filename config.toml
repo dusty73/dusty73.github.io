@@ -1,8 +1,9 @@
-baseURL = "http://dusty74.github.com/"
+baseURL = "http://dusty74.github.io/"
 languageCode = "en-us"
 title = "Dusty's Blog"
 theme = "m10c"
 enableEmoji = "true"
+publishDir = "docs"
 
 [params]
   author = "Dusty"
