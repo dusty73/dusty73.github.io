@@ -3,7 +3,6 @@ languageCode = "en-us"
 title = "Dusty's Blog"
 theme = "m10c"
 enableEmoji = "true"
-publishDir = "docs"
 
 [params]
   author = "Dusty"
