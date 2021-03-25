@@ -1,0 +1,4 @@
+{{ $link := .Get "link" }}
+{{ $text := .Get "text" }}
+{{ $target := .Get "target" }}
+<a href="{{ $link }}" target="_blank">{{ $text }}</a>

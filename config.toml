@@ -1,0 +1,42 @@
+baseURL = "http://dusty74.github.com/"
+languageCode = "en-us"
+title = "Dusty's Blog"
+theme = "m10c"
+enableEmoji = "true"
+
+[params]
+  author = "Dusty"
+  description = "Senior DevOps Engineer, Cyclist in his spare time"
+  menu_item_separator = "/"
+
+[params.style]
+  darkestColor = "#315659"
+  darkColor = "#253031"
+  lightColor = "#96a879"
+  lightestColor = "#fff"
+  primaryColor = "#dad865"
+
+[[menu.main]]
+  identifier = "about"
+  name = "About me"
+  url = "/about/"
+
+[[menu.main]]
+  identifier = "posts"
+  name = "Posts"
+  url = "/posts/"
+
+[[menu.main]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags/"
+
+[[params.social]]
+  icon = "github"
+  name = "My Github"
+  url = "https://github.com/dusty73"
+
+[[params.social]]
+  icon = "linkedin"
+  name = "Linkedin"
+  url = "https://www.linkedin.com/in/igor-d-astolfo-6abbab6/"
