@@ -3,14 +3,15 @@ title: "Creating a website with Hugo"
 tags: [ "web", "docker", "hugo" ]
 date: "2021-03-26"
 ---
-# Introduction
+{{< figure src="/images/HUGO_logo.png" title="HUGO" >}}
+## Introduction
 In this series, I want to describe how I created and manage this web site. I started my career as developer working in a Web Agency, long time ago in 1998. At that time, creating so-called static sites was pretty normal. At that time, we developed a tool for managing templates that allowed us to generate and update pages very quickly and easily.
 
 Then it came the "server-side" era, with .php, .asp and java as prominent technologies, that dominated the scene for many years. For simple sites like this blog, using a server-side technology just for templating seems to be a bit overkill, so I chose to return to origins, creating a static site, but with a very powerful tool that helps a lot in the management of the content and controlling the appearance.
 
 The tool is {{< externallink link="https://gohugo.io/" text="HUGO">}}. This open source tool written in Go lets you create a static site from scratch, let's see how.
 
-# Installation
+## Installation
 
 Hugo is distributed as binary distribution for all major OSes. For classic installation, you can follow the {{< externallink link="https://gohugo.io/getting-started/installing/" text="guide">}}.
 
@@ -31,7 +32,7 @@ echo "source ~/.hugorc" >> ~/.bashrc
 echo "source ~/.hugorc" >> ~/.zshrc
 ```
 
-# Create a site
+## Create a site
 Just issue the command:
 ```bash
 $ hugo new site my-site
@@ -62,7 +63,7 @@ my-site
 └── themes
 ```
 
-# Themes
+## Themes
 Once created the site, we need to install a theme. This is the official registry: {{< externallink link="https://themes.gohugo.io/" text="themes.gohugo.io">}}. Once chosen the theme, we just need to clone the repo and activate it, see for example:
 ```bash
 git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c
@@ -76,7 +77,7 @@ theme = "m10c"
 ```
 Each theme has instructions on how to fine-tune the configuration, you just have to check the documentation.
 
-# Hugo Server
+## Hugo Server
 It's now time to check our brand new site. Hugo implements a local development server that renders the pages on-the-fly and allow us to see the changes immediately.
 Let's use the alias we set up:
 ```bash
@@ -105,10 +106,10 @@ Press Ctrl+C to stop
 ```
 Now, we can point our browser to {{< externallink link="http://localhost:1313/" text="http://localhost:1313">}} and see the preview.
 
-# Basic configuration
+## Basic configuration
 We just saw ```config.toml```. This file contains all main configuration entries that are valid for the whole site. See here for further details: {{< externallink link="https://gohugo.io/getting-started/configuration/" text="https://gohugo.io/getting-started/configuration/">}}
 
-# My first post
+## My first post
 To create the first post of this site we issue:
 ```bash
 hugo new posts/my_first_post.md
