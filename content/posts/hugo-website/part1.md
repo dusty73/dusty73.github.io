@@ -114,3 +114,5 @@ To create the first post of this site we issue:
 hugo new posts/my_first_post.md
 ```
 The command will create a file in the following path: ```content/posts/my_first_post.md```
+
+In the next part, we'll see how to write a post.
