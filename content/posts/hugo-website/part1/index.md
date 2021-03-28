@@ -1,11 +1,18 @@
 ---
 title: "Creating a website with Hugo"
+description: "First part on HUGO tutorial"
 tags: [ "web", "docker", "hugo" ]
 date: "2021-03-26"
+resources:
+   - name: featured-image
+     src: featured-image.jpeg
+   - name: featured-image-preview
+     src: featured-image.jpeg
 ---
-{{< figure src="/images/HUGO_logo.png" title="HUGO" >}}
 ## Introduction
-In this series, I want to describe how I created and manage this web site. I started my career as developer working in a Web Agency, long time ago in 1998. At that time, creating so-called static sites was pretty normal. At that time, we developed a tool for managing templates that allowed us to generate and update pages very quickly and easily.
+In this series, I want to describe how I created and manage this web site.
+<!--more-->
+ I started my career as developer working in a Web Agency, long time ago in 1998. At that time, creating so-called static sites was pretty normal. At that time, we developed a tool for managing templates that allowed us to generate and update pages very quickly and easily.
 
 Then it came the "server-side" era, with .php, .asp and java as prominent technologies, that dominated the scene for many years. For simple sites like this blog, using a server-side technology just for templating seems to be a bit overkill, so I chose to return to origins, creating a static site, but with a very powerful tool that helps a lot in the management of the content and controlling the appearance.
 
