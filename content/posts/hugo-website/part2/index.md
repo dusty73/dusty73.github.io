@@ -1,7 +1,11 @@
 ---
 title: "Creating a website with Hugo - part 2"
 description: "Second part on HUGO tutorial"
+<<<<<<< HEAD
 date: "2021-04-10"
+=======
+date: "2021-07-10"
+>>>>>>> 28d86a1780cd8058ab257d852553ad5cff43de0e
 tags: [ "web", "hugo" ]
 categories: ["hugo"]
 resources:
