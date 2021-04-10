@@ -1,15 +1,15 @@
 ---
-title: "Creating a website with Hugo"
+title: "Creating a website with Hugo - part 1"
 description: "First part on HUGO tutorial"
-tags: [ "web", "docker", "hugo" ]
 date: "2021-03-26"
+tags: [ "web", "docker", "hugo" ]
+categories: ["hugo"]
 resources:
    - name: featured-image
      src: featured-image.jpeg
    - name: featured-image-preview
      src: featured-image.jpeg
 ---
-## Introduction
 In this series, I want to describe how I created and manage this web site.
 <!--more-->
  I started my career as developer working in a Web Agency, long time ago in 1998. At that time, creating so-called static sites was pretty normal. At that time, we developed a tool for managing templates that allowed us to generate and update pages very quickly and easily.

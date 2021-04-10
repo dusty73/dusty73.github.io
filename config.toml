@@ -5,6 +5,13 @@ title = "Dusty's Blog"
 theme = "uBlogger"
 enableEmoji = "true"
 
+
+[markup]
+  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    # false is a necessary configuration
+    noClasses = false
+
 [params]
   version = "2.0.X"
   # site default theme ("light", "dark", "auto")
@@ -128,7 +135,6 @@ enableEmoji = "true"
         [languages.en.params.social]
           GitHub = "https://github.com/dusty73"
           Linkedin = "https://www.linkedin.com/in/igor-d-astolfo-6abbab6/"
-          Email = "i.dastolfo@gmail.com"
           RSS = true
 
 
